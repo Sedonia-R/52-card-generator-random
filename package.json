@@ -6,7 +6,10 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --port 3000 --open",
     "build": "webpack --mode development --verbose --colors --display-error-details",
-    "deploy": "node deploy-to-github.js"
+    "deploy": "node deploy-to-github.js",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
