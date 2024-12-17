@@ -29,10 +29,12 @@
   "bugs": {
     "url": "https://github.com/4GeeksAcademy/vanillajs-hello/issues"
   },
-  "homepage": "https://github.com/4GeeksAcademy/vanillajs-hello#readme",
+  "homepage": "https://sedonia-r.github.io/52-card-generator-random",
   "dependencies": {
     "@popperjs/core": "^2.10.1",
-    "bootstrap": "^5.1.1"
+    "bootstrap": "^5.1.1",
+    "bc-console": "0.0.2",
+    "gh-pages": "^2.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
